@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.bitcoins {
+  display: flex;
+  flex-direction: column;
+}
+table.bitcoins__table {
+  color: white;
+  font-family: 'Open Sans';
+}
+.bitcoins_table__row {
+  height: 30px;
+}
+.bitcoins_table__head {
+  height: 30px;
+  background: #ed990d;
+  border-radius: 8px;
+  width: 200px;
+}
+.bitcoins_table_data, .bg_green {
+  border-radius:8px;
+  text-align: left;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.bitcoins_table__row:nth-child(-1n+6) {
+  background-color: rgb(47, 47, 246);
+}
+.bg_green {
+  background-color: #28b428;
+}
+.bitcoins_table__row:nth-child(1n+6) {
+  background-color: rgb(129 171 230);
+}
